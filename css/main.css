@@ -10,13 +10,25 @@ html {
 }
 
 header {
-  background-color: #f3f3f3;
+  background-color: #d61b5f;
 }
 
 .nav a {
   list-style-type: none;
   text-align: center;
 
+
+}
+
+.btn {
+  background-color: #d61b5f;
+  border: 3px solid #d61b5f;
+
+}
+
+.btn:hover {
+  background-color: #d61b5f;
+  border: 3px solid #65bc46;
 }
 
 .logo {
@@ -25,5 +37,50 @@ header {
 }
 
 h1 {
-  font-size: ;
+  font-size: 5 rem;
+  color: white;
+
+}
+
+.banner {
+  background-image: url("../images/banner2.jpg");
+  background-size: 100% auto;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+
+
+
+}
+
+@media only screen and (min-width: 400px) {
+
+
+
+}
+
+@media only screen and (min-width: 608px) {
+
+
+
+}
+
+@media only screen and (min-width: 960px) {
+
+
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+
+
+}
+
+@media only screen and (min-width: 2500px) {
+
+
+
 }
