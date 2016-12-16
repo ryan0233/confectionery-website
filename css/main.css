@@ -3,6 +3,7 @@ html {
 	box-sizing: border-box;
   list-style-type: none;
   font-family: "Montserrat", sans-serif;
+  background-color: #c0ffe2;
 }
 
 *, *::before, *::after {
@@ -24,11 +25,13 @@ header {
   background-color: #d61b5f;
   border: 3px solid #d61b5f;
 
+
 }
 
 .btn:hover {
-  background-color: #d61b5f;
+  background-color: #c0ffe2;
   border: 3px solid #65bc46;
+  color: #65bc46;
 }
 
 .logo {
