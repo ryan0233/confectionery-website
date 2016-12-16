@@ -9,6 +9,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 
 </head>
 <body>
@@ -19,27 +20,23 @@
       <nav class="nav text-center">
         <ul class="list-group-inline push-0">
           <li class="">
-          <a class="btn" href="#">About Us</a>
+          <a class="btn" href="#about">About Us</a>
           </li>
 
           <li>
-            <a class="btn" href="#">Featured Products</a>
+            <a class="btn" href="#products">Featured Products</a>
           </li>
 
           <li>
-            <a class="btn" href="#">Store Info</a>
+            <a class="btn" href="#store">Store Info</a>
           </li>
 
           <li>
-            <a class="btn" href="#">Place an Order</a>
+            <a class="btn" href="#order">Place an Order</a>
           </li>
         </ul>
       </nav>
     </div>
-
-  </header>
-
-  <main class="">
 
     <div class="grid banner">
       <section class="unit xs-1">
@@ -47,7 +44,7 @@
           <img class="" src=images*******/banner.jpg alt="">
         </i>
         <div class="banner-content pad-t-2 pad-b-2">
-          <h1 class="giga text-center">Beau's Bonbons</h1>
+          <h1 class="tera text-center">Beau's Bonbons</h1>
           <div class="text-center">
             <a class="btn" href="#">Place an Order</a>
           </div>
@@ -55,70 +52,139 @@
       </section>
     </div>
 
-    <section class="gutter">
-      <div>
-        <div class="grid about">
+  </header>
+
+  <main class="gutter-2">
+
+        <section class="grid about" id="about">
+
           <div class="unit xs-1 s-1">
+
             <h2 class="mega">About Us</h2>
             <p>Originally founded in 1964, Beau’s Bonbons is home to many delicious treats, from hard to soft candies and everything in between!</p>
             <h3 class="kilo">Our Staff</h3>
             <p>Our friendly and dedicated staff are always here to help cater to your sweet tooth!</p>
-            <img>
-          </div>
-        </div>
-
-        <div class="grid products">
-          <div class="unit xs-1 s-1">
-            <h2 class="mega">Featured Products</h2>
-
-            <figure>
-              <img src="images/" alt="">
-              <figcaption>Gummy Worms<figcaption>
-            </figure>
-
-            <figure>
-              <img src="images/" alt="">
-              <figcaption>Jujubes<figcaption>
-            </figure>
-
-            <figure>
-              <img src="images/" alt="">
-              <figcaption>Hard Candies<figcaption>
-            </figure>
-
-            <figure>
-              <img src="images/" alt="">
-              <figcaption>Chocolate Candies<figcaption>
-            </figure>
 
           </div>
-        </div>
 
-        <div class="grid store">
-          <div class="unit xs-1 s-1">
-            <h2 class="mega">Store Info</h2>
-            <h3 class="kilo">Address</h3>
-            <p>1234 Main St. Ottawa, ON</p>
-            <h3 class="kilo">Hours</h3>
-            <p>Mon-Sat: 10am–6pm</p>
-            <p>Sun: 11am–4pm</p>
+          <div class="grid">
+
+            <div class="unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <figure class="unit">
+                <img class="img-flex" src="images/bob.jpg" alt="">
+                <figcaption>Bob Beau, Owner</figcaption>
+              </figure>
+            </div>
+
+            <div class="unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <figure class="unit">
+                <img class="img-flex" src="images/regina.jpg" alt="">
+                <figcaption>Regina Phalange, Head Chef</figcaption>
+              </figure>
+            </div>
+
+            <div class="unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <figure class="unit">
+                <img class="img-flex" src="images/maurice.jpg" alt="">
+                <figcaption>Maurice Smith, Manager </figcaption>
+              </figure>
+            </div>
+
+          </div>
+
+        </section>
+
+    <section class="grid products" id="products">
+
+      <div class="unit xs-1 s-1">
+
+        <h2 class="mega">Featured Products</h2>
+
+        <figure>
+          <img src="images/" alt="">
+          <figcaption>Gummy Worms</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/" alt="">
+          <figcaption>Jujubes</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/" alt="">
+          <figcaption>Hard Candies</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/" alt="">
+          <figcaption>Chocolate Candies</figcaption>
+        </figure>
+
+      </div>
+
+    </section>
+
+    <section class="grid store" id="store">
+
+      <div class="unit xs-1 s-1">
+        <h2 class="mega">Store Info</h2>
+        <h3 class="kilo">Address</h3>
+        <p>1234 Main St. Ottawa, ON</p>
+        <h3 class="kilo">Hours</h3>
+        <p>Mon-Sat: 10am–6pm</p>
+        <p>Sun: 11am–4pm</p>
+      <div>
+
+    </section>
+
+    <section class="grid order" id="order">
+
+      <div class="unit">
+        <h2 class="mega">Place an Order</h2>
+
+        <form action="" method="post">
+
           <div>
-        </div>
-
-        <div class="grid order">
-          <div class="unit">
-            <h2 class="mega">Place an Order</h2>
+            <label for="name">Name</label>
+            <input id="name">
           </div>
-        </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="1234@example.com">
+          </div>
+
+          <div>
+            <label for="items">Item(s)</label>
+            <textarea id="items"></textarea>
+          </div>
+
+          <div>
+            <label for="amount">Amount</label>
+            <select id="amount">
+              <option>Half Dozen (6)</option>
+              <option>Dozen (12)</option>
+              <option>Two Dozen (24)</option>
+            </select>
+          </div>
+
+          <button type="submit">Send</button>
+
+        </form>
 
       </div>
 
+    </section>
 
 
 
 
 
-      </div>
+
+
+
+
+
 
 
 
@@ -131,7 +197,7 @@
 
 
 
-    </section>
+
 
 
 
