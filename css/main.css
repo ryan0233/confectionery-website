@@ -1,0 +1,29 @@
+
+html {
+	box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+header {
+  background-color: #f3f3f3;
+}
+
+.nav a {
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.logo {
+  max-width: 5rem;
+  display: inline;
+}
+
+h1 {
+  font-size: ;
+}
