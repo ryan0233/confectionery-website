@@ -1,13 +1,13 @@
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #c0ffe2;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 header {
@@ -17,15 +17,11 @@ header {
 .nav a {
   list-style-type: none;
   text-align: center;
-
-
 }
 
 .btn {
   background-color: #d61b5f;
   border: 3px solid #d61b5f;
-
-
 }
 
 .btn:hover {
@@ -34,20 +30,15 @@ header {
   color: #65bc46;
 }
 
-.logo {
-  max-width: 5rem;
-  display: inline;
-}
-
 h1 {
   color: white;
-  font-family: "Baloo Paaji", "Monserrat";
+  font-family: "Baloo Paaji", Monserrat;
 
 }
 
 h2 {
   color: #ee4387;
-  font-family: "Baloo Paaji", "Monserrat";
+  font-family: "Baloo Paaji", Monserrat;
 }
 
 .banner {
@@ -76,7 +67,7 @@ form div {
 
 button {
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: .5rem;
   background-color: #c0ffe2;
   border: 3px solid #65bc46;
   color: #65bc46;
